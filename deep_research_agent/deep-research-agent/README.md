@@ -1,8 +1,4 @@
-Here is a professional, visually engaging `README.md` for your Deep Research Agentic System, featuring badges, emojis, bold section headers, and a simple ASCII-style flowchart. This documentation will impress reviewers and clarify your system's structure and usage.
 
-***
-
-```markdown
 # 🔍 Deep Research Agentic System 🚀
 
 [![Python](https://img.shields.io/badge/python-3.9%2B-blue?logo=python)](https://www.python.org/)
@@ -167,3 +163,4 @@ Feel free to copy/paste, add screenshots, or tailor agent descriptions as your s
 [7](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/77906941/b502d8f0-5cbb-4a04-8893-141d1d4880d4/entry_points.txt)
 [8](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/77906941/ce9dd8a9-a33a-4624-9634-5a27dc4ced0c/image.jpg)
 [9](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/77906941/8797f4e1-f238-4ada-879b-65d33150998f/image.jpg)
+
