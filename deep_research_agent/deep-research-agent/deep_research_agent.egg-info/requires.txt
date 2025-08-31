@@ -1,0 +1,4 @@
+google-generativeai>=0.8.5
+openai>=1.102.0
+python-dotenv>=1.1.1
+tavily-python>=0.7.11
