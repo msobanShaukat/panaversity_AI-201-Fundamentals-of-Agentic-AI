@@ -83,8 +83,8 @@ deep-research-system/
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
-cd deep-research-system
+git clone https://github.com/msobanShaukat/panaversity_AI-201-Fundamentals-of-Agentic-AI.git
+cd deep_research_agent
 
 # Install dependencies (using uv)
 uv sync
@@ -255,3 +255,4 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 **Empowering research through intelligent agent collaboration!** 🎓✨
 
 *For questions or contributions, please open an issue or submit a pull request.*
+
