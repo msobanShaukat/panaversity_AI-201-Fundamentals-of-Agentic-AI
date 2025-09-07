@@ -1,3 +1,9 @@
+https://img.shields.io/badge/python-3.10%252B-blue
+https://img.shields.io/badge/License-MIT-yellow.svg
+https://img.shields.io/badge/code%2520style-black-000000.svg
+https://img.shields.io/badge/asyncio-ready-green
+https://img.shields.io/badge/API-Gemini-FF6F00.svg
+https://img.shields.io/badge/Search-Tavily-4A154B.svg
 # 🚀 AI-Powered Multi-Agent Research Assistant
 ## 🌟 Overview
 Welcome to the **AI-Powered Multi-Agent Research Assistant**! 
@@ -79,6 +85,7 @@ The system will then begin the research process, and a final markdown report wil
 3.  **Aggregation & Synthesis**: The **Synthesis Agent** collects the findings from all researchers. It uses sentence transformers to perform semantic analysis, identifying pairs of findings that may be contradictory.
 4.  **Conflict Resolution**: For each conflict detected, the **Conflict Resolver** is activated. It sends the two conflicting statements to the Gemini LLM and prompts it to generate a new, reconciled statement that bridges the gap between the two.
 5.  **Final Reporting**: The **Report Writer** takes all the components—the original research findings, the list of detected conflicts, and the newly generated reconciled statements—and assembles them into the final `README.md` report, complete with source citations.
+
 
 
 
