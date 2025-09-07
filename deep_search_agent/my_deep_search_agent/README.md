@@ -1,10 +1,17 @@
+# 🚀 AI-Powered Multi-Agent Research Assistant
+
+🕵️‍♂️ Deep Research Agent System
 https://img.shields.io/badge/python-3.10%252B-blue
 https://img.shields.io/badge/License-MIT-yellow.svg
 https://img.shields.io/badge/code%2520style-black-000000.svg
 https://img.shields.io/badge/asyncio-ready-green
 https://img.shields.io/badge/API-Gemini-FF6F00.svg
 https://img.shields.io/badge/Search-Tavily-4A154B.svg
-# 🚀 AI-Powered Multi-Agent Research Assistant
+
+A sophisticated multi-agent framework for automated, in-depth research and personalized report generation 🔍✨
+
+The Deep Research Agent System is a powerful AI-driven framework that performs comprehensive research on complex topics using a team of specialized autonomous agents. It plans research strategies, gathers real-time information from the web, and synthesizes findings into structured, citation-rich reports tailored to user preferences.
+
 ## 🌟 Overview
 Welcome to the **AI-Powered Multi-Agent Research Assistant**! 
 This is a sophisticated system that leverages a team of specialized AI agents to perform deep, multi-faceted research on complex topics. It automates the entire workflow from deconstructing a query to conducting parallel research, detecting and resolving informational conflicts, and compiling a final, comprehensive report.
@@ -85,6 +92,7 @@ The system will then begin the research process, and a final markdown report wil
 3.  **Aggregation & Synthesis**: The **Synthesis Agent** collects the findings from all researchers. It uses sentence transformers to perform semantic analysis, identifying pairs of findings that may be contradictory.
 4.  **Conflict Resolution**: For each conflict detected, the **Conflict Resolver** is activated. It sends the two conflicting statements to the Gemini LLM and prompts it to generate a new, reconciled statement that bridges the gap between the two.
 5.  **Final Reporting**: The **Report Writer** takes all the components—the original research findings, the list of detected conflicts, and the newly generated reconciled statements—and assembles them into the final `README.md` report, complete with source citations.
+
 
 
 
