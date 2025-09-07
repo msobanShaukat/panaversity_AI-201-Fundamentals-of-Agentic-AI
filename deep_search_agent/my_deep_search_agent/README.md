@@ -74,15 +74,12 @@ The system will then begin the research process, and a final markdown report wil
 ## 🤝 How the Team Coordinates The agents follow a structured, sequential workflow to ensure a high-quality output.
 
 1.  **Input & Planning**: The `main.py` script captures the user's complex query. The **Planning Agent** then deconstructs it into multiple, focused sub-questions.
-2.  **Parallel Research**: The system launches multiple **Research Agents** simultaneously. Each agent is assigned one sub-question and works independently to find relevant information. User profile details (like interest and location) are used to personalize the search.
+2.  **Parallel Research**: The system launches multiple **Research Agents** simultaneously. Each agent is assigned one sub-question and works independently to find relevant information. User profile details (like interests and location) are used to personalize the search.
 3.  **Aggregation & Synthesis**: The **Synthesis Agent** collects the findings from all researchers. It uses sentence transformers to perform semantic analysis, identifying pairs of findings that may be contradictory.
 4.  **Conflict Resolution**: For each conflict detected, the **Conflict Resolver** is activated. It sends the two conflicting statements to the Gemini LLM and prompts it to generate a new, reconciled statement that bridges the gap between the two.
 5.  **Final Reporting**: The **Report Writer** takes all the components—the original research findings, the list of detected conflicts, and the newly generated reconciled statements—and assembles them into the final `README.md` report, complete with source citations.
 
-[1](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/77906941/a47ea415-3040-4f5e-93e8-ad7688f79d7e/synthesis_agent.cpython-313.pyc)
-[2](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/77906941/361edfbd-4224-46d8-aa16-b4202ca82f7e/research_agents.cpython-313.pyc)
-[3](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/77906941/e6d02b0c-e434-4fe9-a82d-511485572719/report_writer.cpython-313.pyc)
-[4](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/77906941/99c43b7d-7870-476d-8e03-b39478c1e6b2/planning_agent.cpython-313.pyc)
-[5](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/77906941/31604c48-77d6-489a-895e-32052cfc7ca7/deep_research_system.cpython-313.pyc)
+
+
 
 
