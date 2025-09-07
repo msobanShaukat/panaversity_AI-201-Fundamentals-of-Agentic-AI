@@ -1,0 +1,15 @@
+[project]
+name = "my-deep-search-agent"
+version = "0.1.0"
+description = "Deep search agent with planning, parallel research, synthesis, and streaming summaries"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "python-dotenv",
+    "tavily-python",
+    "aiohttp",
+    "openai>=1.106.1",
+    "sentence-transformers",
+    "scikit-learn",
+    "google-generativeai"  
+]
