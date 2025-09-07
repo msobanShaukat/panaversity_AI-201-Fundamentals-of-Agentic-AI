@@ -1,5 +1,6 @@
-# 🚀 AI-Powered Multi-Agent Research Assistant## 
-🌟 OverviewWelcome to the **AI-Powered Multi-Agent Research Assistant**! This is a sophisticated system that leverages a team of specialized AI agents to perform deep, multi-faceted research on complex topics. It automates the entire workflow from deconstructing a query to conducting parallel research, detecting and resolving informational conflicts, and compiling a final, comprehensive report.
+# 🚀 AI-Powered Multi-Agent Research Assistant
+## 🌟 OverviewWelcome to the **AI-Powered Multi-Agent Research Assistant**! 
+This is a sophisticated system that leverages a team of specialized AI agents to perform deep, multi-faceted research on complex topics. It automates the entire workflow from deconstructing a query to conducting parallel research, detecting and resolving informational conflicts, and compiling a final, comprehensive report.
 
 This system is designed to handle ambiguity and provide nuanced insights that a single-pass search would miss.
 
@@ -83,4 +84,5 @@ The system will then begin the research process, and a final markdown report wil
 [3](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/77906941/e6d02b0c-e434-4fe9-a82d-511485572719/report_writer.cpython-313.pyc)
 [4](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/77906941/99c43b7d-7870-476d-8e03-b39478c1e6b2/planning_agent.cpython-313.pyc)
 [5](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/77906941/31604c48-77d6-489a-895e-32052cfc7ca7/deep_research_system.cpython-313.pyc)
+
 
