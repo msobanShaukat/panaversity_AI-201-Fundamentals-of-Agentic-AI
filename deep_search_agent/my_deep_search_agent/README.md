@@ -1,3 +1,6 @@
+[![Python](https://img.shields.io/badge/python-3.10%2B-blue?logo=python)](https://www.python.org/)
+[![Agentic AI](https://img.shields.io/badge/agentic%20AI-ready-brightgreen)](#)
+[![Tavily](https://img.shields.io/badge/search-Tavily_API-ff69b4)](https://tavily.com/)
 # 🚀 AI-Powered Multi-Agent Research Assistant
 
 A sophisticated multi-agent framework for automated, in-depth research and personalized report generation 🔍✨
@@ -102,6 +105,7 @@ Personalized recommendations 💡
 3.  **Aggregation & Synthesis**: The **Synthesis Agent** collects the findings from all researchers. It uses sentence transformers to perform semantic analysis, identifying pairs of findings that may be contradictory.
 4.  **Conflict Resolution**: For each conflict detected, the **Conflict Resolver** is activated. It sends the two conflicting statements to the Gemini LLM and prompts it to generate a new, reconciled statement that bridges the gap between the two.
 5.  **Final Reporting**: The **Report Writer** takes all the components—the original research findings, the list of detected conflicts, and the generated reconciled statements—and assembles them into the final report, complete with source citations.
+
 
 
 
