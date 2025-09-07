@@ -17,7 +17,7 @@ This system is designed to handle ambiguity and provide nuanced insights that a 
 Follow these steps to get your multi-agent research team up and running.
 
 ### **Prerequisites***   Python 3.13+
-*   A package manager like `pip`
+*   A package manager like `uv`
 *   **Google API Key**: For accessing the Gemini API for synthesis and conflict resolution.
 *   **Tavily API Key**: For the advanced web search capabilities of the research agents.
 
@@ -105,6 +105,7 @@ Personalized recommendations 💡
 3.  **Aggregation & Synthesis**: The **Synthesis Agent** collects the findings from all researchers. It uses sentence transformers to perform semantic analysis, identifying pairs of findings that may be contradictory.
 4.  **Conflict Resolution**: For each conflict detected, the **Conflict Resolver** is activated. It sends the two conflicting statements to the Gemini LLM and prompts it to generate a new, reconciled statement that bridges the gap between the two.
 5.  **Final Reporting**: The **Report Writer** takes all the components—the original research findings, the list of detected conflicts, and the generated reconciled statements—and assembles them into the final report, complete with source citations.
+
 
 
 
