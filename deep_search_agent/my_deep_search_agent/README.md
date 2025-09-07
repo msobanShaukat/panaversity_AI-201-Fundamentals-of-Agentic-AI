@@ -101,7 +101,8 @@ Personalized recommendations 💡
 2.  **Parallel Research**: The system launches multiple **Research Agents** simultaneously. Each agent is assigned one sub-question and works independently to find relevant information. User profile details (like interests and location) are used to personalize the search.
 3.  **Aggregation & Synthesis**: The **Synthesis Agent** collects the findings from all researchers. It uses sentence transformers to perform semantic analysis, identifying pairs of findings that may be contradictory.
 4.  **Conflict Resolution**: For each conflict detected, the **Conflict Resolver** is activated. It sends the two conflicting statements to the Gemini LLM and prompts it to generate a new, reconciled statement that bridges the gap between the two.
-5.  **Final Reporting**: The **Report Writer** takes all the components—the original research findings, the list of detected conflicts, and the newly generated reconciled statements—and assembles them into the final `README.md` report, complete with source citations.
+5.  **Final Reporting**: The **Report Writer** takes all the components—the original research findings, the list of detected conflicts, and the generated reconciled statements—and assembles them into the final report, complete with source citations.
+
 
 
 
