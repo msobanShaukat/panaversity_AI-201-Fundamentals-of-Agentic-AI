@@ -1,5 +1,6 @@
 # 🚀 AI-Powered Multi-Agent Research Assistant
-## 🌟 OverviewWelcome to the **AI-Powered Multi-Agent Research Assistant**! 
+## 🌟 Overview
+Welcome to the **AI-Powered Multi-Agent Research Assistant**! 
 This is a sophisticated system that leverages a team of specialized AI agents to perform deep, multi-faceted research on complex topics. It automates the entire workflow from deconstructing a query to conducting parallel research, detecting and resolving informational conflicts, and compiling a final, comprehensive report.
 
 This system is designed to handle ambiguity and provide nuanced insights that a single-pass search would miss.
@@ -78,6 +79,7 @@ The system will then begin the research process, and a final markdown report wil
 3.  **Aggregation & Synthesis**: The **Synthesis Agent** collects the findings from all researchers. It uses sentence transformers to perform semantic analysis, identifying pairs of findings that may be contradictory.
 4.  **Conflict Resolution**: For each conflict detected, the **Conflict Resolver** is activated. It sends the two conflicting statements to the Gemini LLM and prompts it to generate a new, reconciled statement that bridges the gap between the two.
 5.  **Final Reporting**: The **Report Writer** takes all the components—the original research findings, the list of detected conflicts, and the newly generated reconciled statements—and assembles them into the final `README.md` report, complete with source citations.
+
 
 
 
